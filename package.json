@@ -1,5 +1,5 @@
 {
-  "name": "kurokami-mahwa-api",
+  "name": "komiku api",
   "version": "1.0.0",
   "description": "manhwa api",
   "main": "src/app.js",
