@@ -1,9 +1,9 @@
 ![Preview](panel.png)
-# Kurokami API
+# XReader Komiku API
 Rest API Manhwa Bahasa Indonesia
 
 ## Source
-https://komikstation.co/
+https://komiku.one/
 
 ## Fitur
 
@@ -30,10 +30,10 @@ https://komikstation.co/
 ## Installasi
 ```bash
 # Clone repositori
-git clone https://github.com/Gungcakra/kurokami-manhwa-api.git
+git clone https://github.com/VarrelKun/xreader-komiku-api.git
 
 # Masuk ke folder proyek
-cd kurokami-manhwa-api
+cd xreader-komiku-api
 
 # Install dependensi
 npm install
@@ -47,21 +47,21 @@ npm start
 ```json
 {
     "title": "Return of The Greatest Lancer",
-    "link": "https://komikstation.co/manga/return-of-the-greatest-lancer/",
+    "link": "https://komiku.one/manga/return-of-the-greatest-lancer/",
     "imageSrc": "https://i0.wp.com/komikstation.co/wp-content/uploads/2021/09/Return-of-The-Greatest-Lancer-1.jpg?resize=100,130",
     "chapters": [
         {
-            "chapterLink": "https://komikstation.co/return-of-the-greatest-lancer-chapter-151/",
+            "chapterLink": "https://komiku.one/return-of-the-greatest-lancer-chapter-151/",
             "chapterTitle": "Ch.151",
             "timeAgo": "3 jam lalu"
         },
         {
-            "chapterLink": "https://komikstation.co/return-of-the-greatest-lancer-chapter-150/",
+            "chapterLink": "https://komiku.one/return-of-the-greatest-lancer-chapter-150/",
             "chapterTitle": "Ch.150",
             "timeAgo": "1 minggu lalu"
         },
         {
-            "chapterLink": "https://komikstation.co/return-of-the-greatest-lancer-chapter-149/",
+            "chapterLink": "https://komiku.one/return-of-the-greatest-lancer-chapter-149/",
             "chapterTitle": "Ch.149",
             "timeAgo": "2 minggu lalu"
         }
@@ -73,7 +73,7 @@ npm start
 ## Routes
 URL Utama API:
 
-https://kurokami.vercel.app/api/$endpoint
+https://api-xreader.vercel.app/api/$endpoint
 
 Ganti `$endpoint` dengan list endpoint ini.
 
@@ -85,7 +85,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa terbaru.
   
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-new`
+  `https://api-xreader.vercel.app/api/manhwa-new`
 
 ### 2. Manhwa Populer
 - **GET** `/manhwa-popular`
@@ -93,7 +93,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa populer
 
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-popular`
+  `https://api-xreader.vercel.app/api/manhwa-popular`
   
 ### 3. Manhwa Top
 - **GET** `/manhwa-top`
@@ -101,7 +101,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa top
 
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-top`
+  `https://api-xreader.vercel.app/api/manhwa-top`
   
 ### 4. Manhwa Ongoing
 - **GET** `/manhwa-ongoing`
@@ -109,7 +109,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa ongoing
 
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-ongoing`
+  `https://api-xreader.vercel.app/api/manhwa-ongoing`
   
 ### 5. Manhwa Rekomendasi
 - **GET** `/manhwa-recommendation`
@@ -117,7 +117,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa rekomendasi
 
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-recommendation`
+  `https://api-xreader.vercel.app/api/manhwa-recommendation`
 
   
 ### 6. Manhwa Details
@@ -126,7 +126,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get detail manhwa sesuai  `manhwaId`.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/manhwa-detail/nano-machine`
+  `https://api-xreader.vercel.app/api/manhwa-detail/nano-machine`
   
 
 ### 7. Chapter Details
@@ -135,7 +135,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get detail chapter manhwa sesuai  `chapterId`
 
   **Example:**  
-  `https://kurokami.vercel.app/api/chapter/nano-machine-chapter-1`
+  `https://api-xreader.vercel.app/api/chapter/nano-machine-chapter-1`
   
 
 ### 8. Genre List
@@ -144,7 +144,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list genre.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/genres`
+  `https://api-xreader.vercel.app/api/genres`
 
 
 ### 9. Manhwa by Genre 
@@ -153,7 +153,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai genre.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/genre/action`
+  `https://api-xreader.vercel.app/api/genre/action`
 
 
   ### 10. Manhwa by Genre with Page
@@ -162,7 +162,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai genre dan page.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/genre/action/page/2`
+  `https://api-xreader.vercel.app/api/genre/action/page/2`
 
 
 ### 11. Manhwa Search
@@ -171,7 +171,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai searchQuery.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/search/nano%20machine`
+  `https://api-xreader.vercel.app/api/search/nano%20machine`
 
   
 ### 12. Manhwa Search with Page
@@ -180,4 +180,4 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai searchQuery dan page.
 
   **Example:**  
-  `https://kurokami.vercel.app/api/search/nano%20machine/page/2`
+  `https://api-xreader.vercel.app/api/search/nano%20machine/page/2`
