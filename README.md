@@ -73,7 +73,7 @@ npm start
 ## Routes
 URL Utama API:
 
-https://api-xreader.vercel.app/api/$endpoint
+https://komiku.redzone.web.id/api/$endpoint
 
 Ganti `$endpoint` dengan list endpoint ini.
 
@@ -85,7 +85,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa terbaru.
   
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-new`
+  `https://komiku.redzone.web.id/api/manhwa-new`
 
 ### 2. Manhwa Populer
 - **GET** `/manhwa-popular`
@@ -93,7 +93,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa populer
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-popular`
+  `https://komiku.redzone.web.id/api/manhwa-popular`
   
 ### 3. Manhwa Top
 - **GET** `/manhwa-top`
@@ -101,7 +101,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa top
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-top`
+  `https://komiku.redzone.web.id/api/manhwa-top`
   
 ### 4. Manhwa Ongoing
 - **GET** `/manhwa-ongoing`
@@ -109,7 +109,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa ongoing
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-ongoing`
+  `https://komiku.redzone.web.id/api/manhwa-ongoing`
   
 ### 5. Manhwa Rekomendasi
 - **GET** `/manhwa-recommendation`
@@ -117,7 +117,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa rekomendasi
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-recommendation`
+  `https://komiku.redzone.web.id/api/manhwa-recommendation`
 
   
 ### 6. Manhwa Details
@@ -126,7 +126,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get detail manhwa sesuai  `manhwaId`.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/manhwa-detail/nano-machine`
+  `https://komiku.redzone.web.id/api/manhwa-detail/nano-machine`
   
 
 ### 7. Chapter Details
@@ -135,7 +135,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get detail chapter manhwa sesuai  `chapterId`
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/chapter/nano-machine-chapter-1`
+  `https://komiku.redzone.web.id/api/chapter/nano-machine-chapter-1`
   
 
 ### 8. Genre List
@@ -144,7 +144,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list genre.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/genres`
+  `https://komiku.redzone.web.id/api/genres`
 
 
 ### 9. Manhwa by Genre 
@@ -153,7 +153,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai genre.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/genre/action`
+  `https://komiku.redzone.web.id/api/genre/action`
 
 
   ### 10. Manhwa by Genre with Page
@@ -162,7 +162,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai genre dan page.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/genre/action/page/2`
+  `https://komiku.redzone.web.id/api/genre/action/page/2`
 
 
 ### 11. Manhwa Search
@@ -171,7 +171,7 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai searchQuery.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/search/nano%20machine`
+  `https://komiku.redzone.web.id/api/search/nano%20machine`
 
   
 ### 12. Manhwa Search with Page
@@ -180,4 +180,4 @@ Ganti `$endpoint` dengan list endpoint ini.
   Get list manhwa sesuai searchQuery dan page.
 
   **Example:**  
-  `https://api-xreader.vercel.app/api/search/nano%20machine/page/2`
+  `https://komiku.redzone.web.id/api/search/nano%20machine/page/2`
